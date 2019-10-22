@@ -21,7 +21,6 @@ class NickTest(TestCase, Services):
         Services.click_plus_button_to_expand_category(self, "Tops")
         Services.click_plus_button_to_expand_category(self, "Dresses")
         Services.compare_actual_items_with_heading(self, "There are X products")
-        #Services.click_on_item_quickview(self, 1)
         Services.move_to_item_img(self)
         Services.click_activate_quick_menu(self, 1)
         Services.click_button(self, "Add to cart", "button")
