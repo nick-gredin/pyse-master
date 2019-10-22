@@ -17,6 +17,7 @@ class NickTest(TestCase, Services):
     def test_case_0001_adding_item_into_cart(self):
         """ Nick test"""
         self.open("http://automationpractice.com/index.php")
+        Services.verify_cart_is_impty(self)
         Services.click_button(self, "Women", "tabButton")
         Services.click_plus_button_to_expand_category(self, "Tops")
         Services.click_plus_button_to_expand_category(self, "Dresses")

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6929b01f-7691-4bd1-830e-1581ebbe4ab7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pyse-master/demo/test_case_0001_adding_item_into_cart.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyse-master/demo/test_case_0001_adding_item_into_cart.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pyse-master/pyse/services.py" beforeDir="false" afterPath="$PROJECT_DIR$/pyse-master/pyse/services.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -137,6 +137,14 @@
       <option name="presentableId" value="Default" />
       <updated>1571692126623</updated>
     </task>
+    <task id="LOCAL-00001" summary="updates">
+      <created>1571762117250</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1571762117250</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -149,5 +157,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates" />
   </component>
 </project>

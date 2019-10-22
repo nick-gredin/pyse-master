@@ -93,6 +93,12 @@ class Services(WebDriver):
         _productAmount = len(_element)
         assert productAmount == _productAmount
 
+    def verify_cart_is_impty(self):
+        """productAmount is not itemsAmount"""
+        _cart = "//b[contains(text(), 'Cart')]//following-sibling::span[contains(text(), '(empty)')]"
+        _element = WebDriver.get_element(self, _cart, "xpath")
+        assert (self.is_element_present(_cart)) is True
+
     def verify_text_present_on_page(self, textToVerify):
         src = self.driver.page_source
         assert (textToVerify in self.driver.page_source)
