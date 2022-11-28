@@ -101,7 +101,7 @@ driver.type("name=>wd", "pyse")  #name
 driver.type("xpath=>//*[@class='s_ipt']","pyse")  #xpath
 driver.type("xpath=>//*[@id='kw']","pyse")        #xpath
 
-driver.click_text("link_text=>新闻") #link text ()
+driver.click_text("link_text=>link") #link text ()
 
 ```
 
@@ -112,4 +112,3 @@ driver.click_text("link_text=>新闻") #link text ()
 
 ####
 
-![](./test_report.png)
